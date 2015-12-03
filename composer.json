@@ -1,0 +1,22 @@
+{
+    "name": "nozzha/yii2-bootstrap_rtl",
+    "description": "A Yii 2 wrapper extension for bower-asset/bootstrap-rtl [morteza/bootstrap-rtl]",
+    "type" : "yii2-extension",
+    "keywords": ["yii2"," extension", "nozzha", "bootstrap-rtl", "bootstrap arabic", "bootstrap-arabic"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emad Omar",
+            "email": "emad2030@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/bootstrap-rtl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nozzha\\bootstrap_rtl\\": ""
+        }
+    }
+}
